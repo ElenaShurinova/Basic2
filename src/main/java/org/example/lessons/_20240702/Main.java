@@ -1,5 +1,7 @@
 package org.example.lessons._20240702;
 
+import javax.print.Doc;
+
 public class Main {
     public static void main(String[] args) {
         int i1 = 10;
@@ -12,6 +14,15 @@ public class Main {
         long l1 =1000;
         Long l2 = 10000L;
 
-        System.out.println();
+        System.out.println(i2);
+
+        String Language = "java";
+        Dog spike = new Dog();
+        System.out.println(spike.name);
+        System.out.println(spike.age);
+        System.out.println(Language);
+        System.out.println(StaticClass.PI);
+
+
     }
 }
